@@ -1,0 +1,22 @@
+# --- data & generated artifacts (regenerate them with the scripts) ---
+dataset/
+captures/
+models/*
+!models/README.md
+!models/waste_segregator_demo.keras
+!models/waste_segregator_demo_metadata.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
